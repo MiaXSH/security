@@ -459,20 +459,20 @@ opacity: 0;
   
 .parallelogram {
     position:absolute;
-    margin-top:2600;
+    margin-top:2700;
     margin-left: 10vw;
-    width: 100px;
-    height: 1300px;
+    width: 10vw;
+    height: 150vh;
     background-color: #00a3ee;
     transform: skew(30deg);
     z-index:9;
 }
 .parallelogram2 {
     position:absolute;
-    margin-top:2300;
+    margin-top:2700;
     margin-left: 0vw;
-    width: 150px;
-    height: 1600px;
+    width: 15vw;
+    height: 140vh;
     background-color: #00a3ee;
     transform: skew(60deg);
     z-index:9;
