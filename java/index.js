@@ -8,7 +8,12 @@
 $(document).ready(function() {
 
 
-
+  window.addEventListener('scroll', function () {
+    if (window.scrollX !== 0) {
+      window.scrollTo({ top: window.scrollY, left: 0 });
+    }
+  });
+  
   $(window).on("scroll", function() {
   //   $("#navigation").css("background-color", "black");
   if ($(window).scrollTop() > 0) {
